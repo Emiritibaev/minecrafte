@@ -1,0 +1,63 @@
+#menu8{
+    background-color:orange ;
+    font-family:Arial ;
+    
+} 
+#menu8 li {
+    display: inline-block;
+} 
+#menu8 a:link,#menu8 a:visited{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding:0px 13px ;
+    line-height :35px;
+    text-align: center;
+    font-size: 13px;
+}
+#menu8 a:hover{
+    color: aliceblue;
+    text-decoration: none;
+    background-color:rgb(255, 0, 0) ;
+}
+#menu8 ul{
+    margin-left:13px ;
+    padding:0px ;
+}
+h1{
+color: aqua;
+text-decoration:underline ;
+text-transform: uppercase;
+text-shadow :3px 3px 3px blue ;
+
+}
+.block{
+    width:800px;
+    margin: auto;
+    
+}
+img{
+    width: 100%;
+    
+}
+main{
+    width: 550px;
+    padding-right: 20px;
+}
+aside{
+   width: 250px; 
+}
+.div{
+    display: flex;
+}
+p{
+    text-align: justify;
+    
+}
+th,td{
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+}
+table{
+    width: 100%;
+}
